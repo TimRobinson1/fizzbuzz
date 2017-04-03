@@ -1,3 +1,3 @@
 def fizzbuzz(x)
-'fizz'
+   x == 3 ? 'fizz' : 'buzz'
 end
