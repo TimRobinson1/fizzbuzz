@@ -1,5 +1,5 @@
 def fizzbuzz(x)
-  if x == 15
+  if x % 15 == 0
     'fizzbuzz'
   elsif x % 3 == 0
     'fizz'
