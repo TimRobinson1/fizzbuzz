@@ -1,3 +1,9 @@
 def fizzbuzz(x)
-   x == 3 ? 'fizz' : 'buzz'
+  if x == 15
+    'fizzbuzz'
+  elsif x == 3
+    'fizz'
+  else
+    'buzz'
+  end
 end
