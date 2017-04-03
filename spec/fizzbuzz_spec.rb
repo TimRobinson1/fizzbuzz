@@ -18,4 +18,8 @@ describe 'fizzbuzz' do
    expect(fizzbuzz(4)).to eq 4
  end
 
+ it 'returns "fizz" if passed 6' do
+   expect(fizzbuzz(6)).to eq "fizz"
+ end
+
 end
